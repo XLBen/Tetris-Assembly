@@ -1,0 +1,70 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "skills": {
+    "paths": [
+      "/Users/xiaoliuben/代码项目/skill/build",
+      "/Users/xiaoliuben/代码项目/skill/change",
+      "/Users/xiaoliuben/代码项目/skill/codemap",
+      "/Users/xiaoliuben/代码项目/skill/debug",
+      "/Users/xiaoliuben/代码项目/skill/grill",
+      "/Users/xiaoliuben/代码项目/skill/guardrails",
+      "/Users/xiaoliuben/代码项目/skill/handoff",
+      "/Users/xiaoliuben/代码项目/skill/plan",
+      "/Users/xiaoliuben/代码项目/skill/retro",
+      "/Users/xiaoliuben/代码项目/skill/review",
+      "/Users/xiaoliuben/代码项目/skill/ship",
+      "/Users/xiaoliuben/代码项目/skill/worker",
+      "/Users/xiaoliuben/代码项目/skill/extras/api-and-interface-design",
+      "/Users/xiaoliuben/代码项目/skill/extras/ci-cd-and-automation",
+      "/Users/xiaoliuben/代码项目/skill/extras/code-simplification",
+      "/Users/xiaoliuben/代码项目/skill/extras/computer-use",
+      "/Users/xiaoliuben/代码项目/skill/extras/deprecation-and-migration",
+      "/Users/xiaoliuben/代码项目/skill/extras/frontend-design",
+      "/Users/xiaoliuben/代码项目/skill/extras/mcp-builder",
+      "/Users/xiaoliuben/代码项目/skill/extras/observability-and-instrumentation",
+      "/Users/xiaoliuben/代码项目/skill/extras/performance-optimization",
+      "/Users/xiaoliuben/代码项目/skill/extras/security-and-hardening",
+      "/Users/xiaoliuben/代码项目/skill/extras/shipping-and-launch",
+      "/Users/xiaoliuben/代码项目/skill/extras/skill-creator",
+      "/Users/xiaoliuben/代码项目/skill/extras/source-driven-development",
+      "/Users/xiaoliuben/代码项目/skill/extras/vercel-react-best-practices",
+      "/Users/xiaoliuben/代码项目/skill/extras/webapp-testing",
+      "/Users/xiaoliuben/代码项目/skill/extras/writing-for-agents"
+    ]
+  },
+  "instructions": [
+    ".opencode/workflow-routing.md"
+  ],
+  "permission": {
+    "skill": {
+      "build": "allow",
+      "change": "allow",
+      "codemap": "allow",
+      "debug": "allow",
+      "grill": "allow",
+      "guardrails": "allow",
+      "handoff": "allow",
+      "plan": "allow",
+      "retro": "allow",
+      "review": "allow",
+      "ship": "allow",
+      "worker": "allow",
+      "api-and-interface-design": "deny",
+      "ci-cd-and-automation": "deny",
+      "code-simplification": "deny",
+      "computer-use": "deny",
+      "deprecation-and-migration": "deny",
+      "frontend-design": "deny",
+      "mcp-builder": "deny",
+      "observability-and-instrumentation": "deny",
+      "performance-optimization": "deny",
+      "security-and-hardening": "deny",
+      "shipping-and-launch": "deny",
+      "skill-creator": "deny",
+      "source-driven-development": "deny",
+      "vercel-react-best-practices": "deny",
+      "webapp-testing": "deny",
+      "writing-for-agents": "deny"
+    }
+  }
+}

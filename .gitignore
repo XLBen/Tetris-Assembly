@@ -1,0 +1,6 @@
+build/
+tetris
+.DS_Store
+.wf/
+.opencode/
+__pycache__/
